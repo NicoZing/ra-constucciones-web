@@ -546,8 +546,8 @@ footer{background:var(--deep);color:var(--on-navy-muted);border-top:1px solid rg
 
 <script>
 // Número de WhatsApp en formato internacional, sin "+" ni espacios
-const WA_NUMBER = "34000000000";
-const MAIL = ["info","raconstrucciones.es"].join("@");
+const WA_NUMBER = "34642539734";
+const MAIL = ["inforaconstruccionesburgos","gmail.com"].join("@");
 document.querySelectorAll(".js-mail").forEach(a => { a.href = "mailto:" + MAIL; a.textContent = MAIL; });
 const waUrl = t => "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(t);
 document.querySelectorAll(".js-wa").forEach(a => a.href = waUrl("Hola, me gustaría pedir un presupuesto."));
